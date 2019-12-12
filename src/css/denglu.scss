@@ -1,0 +1,135 @@
+#header{
+	width: 100%;
+	height: 60px;
+	background: #ebebeb;
+	.hd_top{
+		display: flex;
+		height: 60px;
+		width: 1200px;
+		margin: 0 auto;
+		align-items: center;
+		.logo{
+		}
+		.huawei{
+			margin-left: 20px;
+			padding-left: 20px;
+			border-left: 1px solid #cccccc;
+			>span{
+				font-size: 16px;
+				color: #333333;
+			}
+		}
+	}
+}
+#main{
+	height: 700px;
+	position: relative;
+	>img{
+		width: 100%;
+		height: 700px;
+	}
+	.m_denglu{
+		display: flex;
+		width: 370px;
+		height: 450px;
+		position: absolute;
+		top:125px;
+		right: 100px;
+		background: #fff;
+		flex-direction:column;
+		align-items: center;
+		justify-content: space-around;
+		>h2{
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+			color: #b92829;
+			margin-top: 10px;
+		}
+		.md_form{
+			display: flex;
+			flex-direction: column;
+			margin-top: 30px;
+			.tet{
+				width: 300px;
+				height: 40px;
+				border: none;
+				line-height: 40px;
+				border-bottom: 1px solid #d9d9d9;
+			}
+			.psd{
+				margin-top: 20px;
+				width: 300px;
+				height: 40px;
+				border: none;
+				border-bottom: 1px solid #d9d9d9;
+			}
+			.sub{
+				margin-top: 30px;
+				width: 300px;
+				height: 40px;
+				border: none;
+				border-radius: 20px;
+				background: #b40707;
+				font-size: 16px;
+				color: #fff;
+			}
+			.txt{
+				line-height: 30px;
+			}
+		}
+		>a{
+			display: block;
+			color: #1185ff;
+		}
+		>h3{
+			color: #d9d9d9;
+			font-size: 16px;
+		}
+		.md_fs{
+			display: flex;
+			width: 300px;
+			justify-content: space-around;
+			>a{
+				>span{
+					font-size: 50px;
+					color: #d9d9d9;
+				}
+			}
+		}
+	}
+}
+#footer{
+	width: 100%;
+	height: 65px;
+	background: #ebebeb;
+	.fot_bot{
+		width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction:column;
+		align-items: center;
+		>ul{
+			display: flex;
+			margin-top: 15px;
+			>li{
+				>a{
+					color:#adadad;
+					&:hover{
+						text-decoration:underline ;
+					}
+				}
+			}
+			>em{
+				color: #adadad;
+				margin: 0 10px 0 10px;
+			}
+		}
+		>span{
+			margin-top: 5px;
+			color: #adadad;
+		}
+	}
+}
+

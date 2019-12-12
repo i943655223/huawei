@@ -1,0 +1,1 @@
+"use strict";!function(){var n=$(".shuliang")[0],i=$(".gouwuche")[0],c=$(".jian")[0],u=$(".jia")[0],o=$(".shu")[0],e=0;i.onclick=function(){e++,o.innerHTML=e,n.innerHTML=e},u.onclick=function(){e++,o.innerHTML=e},c.onclick=function(){e--,o.innerHTML=e}}();
